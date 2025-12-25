@@ -6,10 +6,10 @@ class Opshop < Formula
   # sha256 通过 shasum -a 256 xx.tar.gz 方式获取
   if Hardware::CPU.arm?
     url "https://github.com/shaobenbin/opshop/releases/download/v0.1.1/opshop-v0.1.1-darwin-arm64.tar.gz"
-    sha256 "faf7d39055bd89dae9ac46751e6915fa5ceedca7dd32fe32a757fa18091f64c6"
+    sha256 "0f6b37b784f73efb18953491afe311fd2a3a936d6968a7863240ffc52ddf5baf"
   else
     url "https://github.com/shaobenbin/opshop/releases/download/v0.1.1/opshop-v0.1.1-darwin-amd64.tar.gz"
-    sha256 "f9a3e6040d9f62d80b8f66a4b15daa62cdfc172cbb64c8fd584f0b03ecb99788"
+    sha256 "c333c83679afe2339b378df8ce9e0b77a8c5014c76a9ea29868d214bde215008"
   end
 
   def install
